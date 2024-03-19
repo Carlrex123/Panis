@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added */
+}
+h2 {
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+label {
+    font-weight: bold;
+    color: #555;
+}
+input[type="text"], input[type="email"], input[type="datetime-local"] {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347; /* Tomato red */
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+input[type="submit"]:hover {
+    background-color: #cc4731; /* Darker tomato red */
+}
+.sushi-img {
+    display: block;
+    margin: 0 auto; 
+}
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

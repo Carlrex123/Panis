@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('wc2.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; /* Cover the entire background */
+    font-family: Arial, sans-serif;
+}
+
+
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  h1 {
+    color: #FFA500; /* Reddish color */
+    font-size: 80px;
+  }
+
+  .letter {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .sushi-image {
+    margin-top: 50px;
+  }
+
+  .footer {
+    position:fixed;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: #333;
+    color: #fff;
+    padding: 5px  5px;
+
+    
+  }

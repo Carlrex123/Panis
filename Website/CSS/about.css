@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #66CC66;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#ffcc5c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h2, h3, h4, h5 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.last-paragraph {
+    margin-top: 10px;
+}
+.container2{
+    color: white;
+    text-decoration: none;
+    background-color: #FA8072;
+    padding: 10px 15px;
+    font-family: Verdana;
+    border-radius: 5px;
+    transition: 0.2s;
+}
